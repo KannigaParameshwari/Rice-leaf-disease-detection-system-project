@@ -1,0 +1,6 @@
+path: /content/drive/MyDrive/dataset   # dataset root
+train: images/train
+val: images/val
+
+nc: 6   # number of classes
+names: ['Healthy', 'Bacterial leaf blight', 'Brown spot', 'Hispa', 'Leaf smut', 'LeafBlast']
