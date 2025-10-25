@@ -7,7 +7,7 @@ import tempfile
 import re
 import os
 
-# python -m streamlit run rice_disease.py
+
 
 # Load YOLO model
 model_path = os.path.join("models", "best.pt")  # works on Windows & Linux
