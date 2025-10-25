@@ -9,7 +9,11 @@ import re
 
 
 # Load YOLO model
+<<<<<<< HEAD
 model_path = r'C:\Users\Admin\Desktop\rice_leaf\dataset\trained_model\rice_leaf_yolov12\weights\best.pt'
+=======
+model_path = r'C:\Users\Syed\Desktop\dataset\trained_model\rice_leaf_yolov12\weights\best.pt'
+>>>>>>> 39cf19723485542b0cdf7f016dbd8850bb410f40
 model = YOLO(model_path)
 
 
