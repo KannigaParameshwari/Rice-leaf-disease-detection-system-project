@@ -1,32 +1,10 @@
-# streamlit>=1.34.0
-# # ultralytics==8.4.0
-# ultralytics==8.3.34
-
-# torch==2.1.0
-# torchvision==0.16.0
-# pandas>=2.0.0
-# Pillow>=9.0.0
-# altair>=5.0.0
-# numpy>=1.24.0
-# opencv-python-headless==4.8.1.78
-
-# Streamlit for web interface
 streamlit>=1.34.0,<2.0.0
-
-# YOLO (Ultralytics) - compatible with Torch 2.1
 ultralytics==8.3.34
-
-# PyTorch & Torchvision - CPU or GPU
 torch==2.1.0
 torchvision==0.16.0
-
-
-# Data handling & visualization
 pandas>=2.0.0,<3.0.0
 numpy>=1.24.0,<2.0.0
 altair>=5.0.0,<6.0.0
 Pillow>=9.0.0,<10.0.0
-
-# OpenCV headless version for image processing without GUI
 opencv-python-headless==4.8.1.78
 
