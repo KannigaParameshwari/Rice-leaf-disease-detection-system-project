@@ -17,8 +17,9 @@ streamlit>=1.34.0,<2.0.0
 ultralytics==8.3.34
 
 # PyTorch & Torchvision - CPU or GPU
-torch==2.1.0+cu121   # change '+cu121' to '+cpu' if no GPU
-torchvision==0.16.0+cu121
+torch==2.1.0
+torchvision==0.16.0
+
 
 # Data handling & visualization
 pandas>=2.0.0,<3.0.0
