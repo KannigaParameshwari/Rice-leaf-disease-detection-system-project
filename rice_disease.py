@@ -5,12 +5,12 @@ import pandas as pd
 import altair as alt
 import tempfile
 import re
+import os
 
 # python -m streamlit run rice_disease.py
 
 # Load YOLO model
-model_path = r'C:\Users\Admin\Desktop\rice_leaf\dataset\trained_model\rice_leaf_yolov12\weights\best.pt'
-
+model_path = os.path.join("models", "best.pt")  # works on Windows & Linux
 model = YOLO(model_path)
 
 
